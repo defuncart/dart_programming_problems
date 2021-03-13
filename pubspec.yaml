@@ -1,0 +1,10 @@
+name: dart_programming_problems
+description: A collection of programming problems in dart.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.16.8
