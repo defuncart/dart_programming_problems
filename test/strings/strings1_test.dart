@@ -15,4 +15,9 @@ void main() {
     expect(isPalindrome('RaDAr??'), isTrue);
     expect(isPalindrome('Was it a cat I saw?'), isTrue);
   }, skip: true);
+
+  test('rotate', () {
+    expect(rotate('forwhomthebelltolls', 3), 'whomthebelltollsfor');
+    expect(rotate('verycomplexnumber', -6), 'numberverycomplex');
+  }, skip: true);
 }

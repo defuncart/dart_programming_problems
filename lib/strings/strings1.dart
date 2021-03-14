@@ -7,3 +7,9 @@ int vowelCount(String string) => null;
 ///
 /// Note that this should be case insensitive, while punctuation should be ignored
 bool isPalindrome(String string) => null;
+
+/// Rotates a string by a given number of characters
+/// Note that [numberCharacters] can be positive or negative
+///
+/// i.e. verycomplexnumber, -6 => numberverycomplex
+String rotate(String string, int numberCharacters) => null;

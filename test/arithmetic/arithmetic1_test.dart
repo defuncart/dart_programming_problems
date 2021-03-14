@@ -1,4 +1,4 @@
-import 'package:dart_programming_problems/numbers/numbers1.dart';
+import 'package:dart_programming_problems/arithmetic/arithmetic1.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -10,9 +10,9 @@ void main() {
   }, skip: true);
 
   test('average', () {
-    expect(median([2, 3, 7, 0]), 4);
-    expect(median([20, 10, 0]), 15);
-    expect(median([1, 0]), 1);
+    expect(average([2, 3, 7]), 4);
+    expect(average([20, 10]), 15);
+    expect(average([1]), 1);
   }, skip: true);
 
   test('median', () {
@@ -21,8 +21,9 @@ void main() {
     expect(median([300, 15, 550, 1000, 137]), 300);
   }, skip: true);
 
-  test('isTriangle', () {
-    expect(isTriangle(3, 4, 5), isTrue);
-    expect(isTriangle(1, 2, 4), isFalse);
+  test('sum', () {
+    expect(sum(1), 1);
+    expect(sum(10), 55);
+    expect(sum(100), 5050);
   }, skip: true);
 }

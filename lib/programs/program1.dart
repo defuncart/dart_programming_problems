@@ -1,5 +1,4 @@
+/// Write a program that asks the user for their name and greets them with their name
 ///
-/// +, -, *, % are valid operands
-///
-/// i.e. 5 + 3 * 2 % 4 = 0
-int calculate(List<String> operands) => null;
+/// run using `dart lib/programs/program1.dart Dash` where Dash is the name
+void main(List<String> args) => null;

@@ -1,11 +1,7 @@
-/// Returns a list of strings an prints them, one per line, in a rectangular frame
-/// i.e.  ["Hello", "World", "in", "a", "frame"]
+/// Returns whether (), [], {}, <> brackets have matching pairs
 ///
-/// *********
-/// * Hello *
-/// * World *
-/// * in    *
-/// * a     *
-/// * frame *
-/// *********
-String rectFrame(List<String> strings) => null;
+/// i.e. (a+[b*c]-{d/3}) => true
+/// i.e. (a + [b * c) - 17] => false
+///
+/// TIP ignore all non brackets
+bool matchingBrackets(String input) => null;

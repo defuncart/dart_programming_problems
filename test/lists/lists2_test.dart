@@ -2,7 +2,7 @@ import 'package:dart_programming_problems/lists/lists2.dart';
 import 'package:test/test.dart' hide contains;
 
 void main() {
-  test('maximum', () {
+  test('reverse', () {
     expect(reverse([1, 2, 3]), [3, 2, 1]);
     expect(reverse([-100, 52, 3000]), [3000, 52, -100]);
     expect(reverse([-1, -2, -3]), [-3, -2, -1]);
@@ -16,6 +16,6 @@ void main() {
 
   test('contains', () {
     expect(hasUniqueElements([1, 2, 3]), isTrue);
-    expect(hasUniqueElements([1, 2, 2, 3]), isFalse);
+    expect(hasUniqueElements([1, 2, 3, 2]), isFalse);
   }, skip: true);
 }

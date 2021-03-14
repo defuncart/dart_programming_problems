@@ -4,6 +4,8 @@
 int fahrenheitToCelsius(int degrees) => null;
 
 /// Returns the average value of a list of numbers
+///
+/// i.e. [2, 3, 7] => 4
 int average(List<int> numbers) => null;
 
 /// Returns the median value
@@ -12,8 +14,7 @@ int average(List<int> numbers) => null;
 /// i.e. [7, 3, 5] => 7
 int median(List<int> numbers) => null;
 
-/// Returns whether three values can form a triangle
+/// Returns the sum of all numbers from 1 to n
 ///
-/// i.e. 3, 4, 5 => true, 1, 2, 4 => false
-/// HINT: Pythagorean theorem
-bool isTriangle(int a, int b, int c) => null;
+/// HINT This can be achieved using computer science or mathematics
+int sum(int n) => null;
